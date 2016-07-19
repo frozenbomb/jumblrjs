@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Jumblr - The randomized group maker</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div id="page">
+      <h1 id="title">Jumblr</h1>
+      <form id="messageForm">
+        <h3 id= "list">Enter names separated by , then press randomize</h3>
+  	    <textarea id="message">Jim, Bob, Mary, Sue</textarea>
+        <!-- <input type="text" id="message" /> -->
+        <h2 id= "groupSize">Group size:
+          <input type="number" id="drop"
+            min="2"
+            max="5"
+            step="1"
+            value="2">
+            <input type="button" id="button" value="Randomize">
+        </h2>
+
+
+      </form>
+      <h2 id="memberSize"></h2>
+      <ul id="groupList"></ul>
+    </div>
+    <script src="js/javascript.js"></script>
+  </body>
+</html>
